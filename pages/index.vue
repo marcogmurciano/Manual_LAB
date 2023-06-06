@@ -216,17 +216,15 @@
                         animados de esta manera
                     </Article>
 
-                    <Article class="borde article_scrollable" tit="Idents" :img="['sample_image.jpg']">
-                        tronco pero que dices no me creo que vengas del futuro tronco tio de verdad que mierda fumas
-                        hermano.
+                    <Article class="article_scrollable" tit="Idents y explosiones" :img="[]" :video="['idents_1.mp4', 'idents_2.mp4']">
+                        Estos idents son los que presentan las submarcas, están basados en el Módulo.
+                        cada par de submarcas tiene un tipo de movimiento asignado:<br />
+                        <br />  Junior y Más que Cine tienen asignado la generación aleatorio de módulos<br />
+                        <br />  Macro XE y e-motion4D tienen asignado el movimiento concéntrico circular<br />
+                        <br />  Premium y luxury se muestran con movimiento lineal.<br />
+                        <br />También se ven aplicados a una imagen promocional de una película en el segundo video
                     </Article>
-                    <Article class="article_scrollable" tit="Cortinillas, Cartelas y explosiones"
-                        :img="['sample_image.jpg']">Queda confirmado que esta persona es la más
-                        cangreja de su piso,
-                        se podría llamarle también como bárcenas. ¿Bárcenas?¡bárcenas!Luis Francisco Bárcenas Gutiérrez
-                        (Huelva, 22 de agosto de 1956)
-                        es un empresario y expolítico español perteneciente al Partido Popular, donde
-                    </Article>
+                    
                 </div>
 
             </div>
@@ -293,7 +291,7 @@ const subArray = [
     [
         'Tipografía en pantalla',
         'Movimiento',
-        'Idents',
+        'Idents y explosiones',
         'Cortinillas, Cartelas y explosiones',
 
     ],
